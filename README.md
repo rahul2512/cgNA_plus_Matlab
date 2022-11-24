@@ -9,7 +9,7 @@ cgNA+ model is the evolution of the cgDNA family of models developed in the LCVM
 This Matlab package is originally developed by Alessandro S Patelli. 
 The current code is updated by Rahul Sharma to include cgNA+ parameter sets.
 Public version: last updated by Rahul Sharma (rs25.iitr@gmail.com, rahul.sharma@epfl.ch) on Nov 2022
-
+The python package is available at https://github.com/rahul2512/cgNA_plus. 
 -------------------------------------------------------
 
 cgNA+ is a software (Matlab or Octave or Python) package for
