@@ -1,0 +1,110 @@
+
+%-------------------------------------------------------
+% cgDNA, version 2.0 (2018)
+%-------------------------------------------------------    
+
+cgDNA is a software (Matlab or Octave) package for
+predicting the ground-state conformation and stiffness
+matrix of a molecule of B-form DNA of any given sequence.
+Free energy differences between two configurations of a
+molecule of B-form DNA in standard environmental
+conditions, can then be computed.
+
+The ground-state conformation is provided in the Curves+
+definition of the DNA structural coordinates (both a
+non-dimensional version and the original unscaled version),
+and also as a PDB file of atomic coordinates. The PDB file
+can be used in the program 3DNA to obtain 3DNA structural
+coordinates if desired. The ground-state stiffness matrix
+is provided for non-dimensional version of the Curves+
+helical coordinates.
+
+A user-friendly web version of this program is available at
+
+cgDNAweb.epfl.ch
+
+
+PUT cgDNAweb CITATION HERE  
+
+More information is available at
+
+http://lcvmwww.epfl.ch/cgDNA
+
+and in:
+
+D. Petkeviciute, M. Pasi, O. Gonzalez and J.H. Maddocks. 
+ cgDNA: a software package for the prediction of
+ sequence-dependent coarse-grain free energies of B-form
+ DNA. Submitted (2014). 
+
+If you find cgDNA useful, please cite the above
+publication.
+
+
+%-------------------------------------------------------
+% For the impatient...
+%-------------------------------------------------------
+Run the Matlab (or Octave) script examples.m
+
+
+%-------------------------------------------------------
+% cgDNA package contents
+%-------------------------------------------------------
+
+README -- this file
+cgDNA.m -- function file
+constructSeqParms.m -- function file
+
+
+examples.m -- function file
+cgDNA2dplot.m -- function file
+cgDNA2dplot_4pannels.m -- function file
+cgDNA3dplot.m -- function file
+cgDNA_MonteCarlo.m -- function file
+makePDB.m -- function file
+parseFasta.m -- function file
+
+
+cur2nondim.m -- function file
+nondim2cur.m -- function file
+frames.m -- function file
+shapes2vector.m -- function file
+vector2shapes.m -- function file
+wcc.m -- function file
+
+idealBases.mat -- data file (ideal base atom positions)
+sequence.txt ???- data file
+sequence_mult.txt data file 
+
+ParameterSets ???- folder
+
+
+
+%-------------------------------------------------------
+% cgDNA usage notes
+%-------------------------------------------------------
+To use cgDNA:
+
+1) Add the location of the cgDNA library to your path
+(see "help addpath"). Alternatively, copy all the package 
+files into your working directory.
+
+2) Locate your working directory in your Matlab (or
+Octave) session.
+
+3) Enter ???examples??? at the Matlab (or Octave) prompt to obtain
+an example of the predicted ground-state conformation and stiffness matrix
+of a molecule of B-form DNA, given its base sequence. The
+script produces 2d and 3d plots of the ground-state coarse-grain coordinates
+and ideal atomic coordinates of bases in
+"base_atoms.pdb". The DNA sequence can be changed by editing
+the file ???examples.m???.
+
+A full description of the main programs and each function is
+provided at the top of each file.
+
+The package was tested on Matlab??? versions 9.3
+(R2017b),and GNU Octave
+version 3.6.4 (http://www.gnu.org/software/octave/).
+
+

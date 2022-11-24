@@ -1,0 +1,5 @@
+%%cgDNA+ps1_npd.mat is the ABC prmset in Patelli's thesis with two indefinite end. 
+
+%%cgDNA+ps1.mat is the final ABC prmset --- USE this one  --- extended using 60 end sequences
+ and is same as ps_ABC_SPCE_D_PD.mat.  
+
