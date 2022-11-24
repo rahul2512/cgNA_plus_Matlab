@@ -4,10 +4,12 @@ README
 -------------------------------------------------------
  cgNA+ Matlab (2022) --- developed at LCVMM, EPFL (https://lcvmwww.epfl.ch/)
 -------------------------------------------------------  
+
 cgNA+ model is the evolution of the cgDNA family of models developed in the LCVMM lab (Prof. John H. Maddocks) at EPFL.
-This Matlab package is originally developed by Alessandro Patelli (rs25.iitr@gmail.com). 
+This Matlab package is originally developed by Alessandro S Patelli. 
 The current code is updated by Rahul Sharma to include cgNA+ parameter sets.
 Public version: last updated by Rahul Sharma (rs25.iitr@gmail.com, rahul.sharma@epfl.ch) on Nov 2022
+
 -------------------------------------------------------
 
 cgNA+ is a software (Matlab or Octave or Python) package for
